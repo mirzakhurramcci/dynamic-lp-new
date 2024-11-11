@@ -1,0 +1,36 @@
+.VideoPlay-VideoPlayBox {
+    position: absolute;
+}
+
+.VideoPlayBox {
+    margin-top: 2%;
+}
+
+.VideoPlayCloseIcon {
+    content: 'x';
+    cursor: pointer;
+    background: #ededed;
+    width: 25px;
+    height: 25px;
+    border-radius: 52%;
+    line-height: 20px;
+    border: 1px solid #999;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+    left: 170px;
+    top: -14px;
+}
+
+
+@media only screen and (max-width: 320px) and (min-height:568px) {
+    .VideoPlayCloseIcon {
+        left: 130px;
+    }
+}
+
+@media only screen and (max-width: 280px) and (min-height:653px) {
+    .VideoPlayCloseIcon {
+        left: 109px;
+    }
+}
